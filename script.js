@@ -376,7 +376,6 @@ function initializeFloatingChat() {
 
     // Simulate bot response
     const botResponse = await generateBotResponse(message);
-    console.log(botResponse);
 
     addMessage(botResponse, "bot");
   }
@@ -406,7 +405,7 @@ function addMessage(text, sender) {
   const chatMessages = document.getElementById("chatMessages");
   const messageDiv = document.createElement("div");
   messageDiv.className = `message ${sender}-message`;
-  messageDiv.innerHTML = `<p>${text}</p>`;
+  messageDiv.innerHTML = text;
 
   chatMessages.appendChild(messageDiv);
   chatMessages.scrollTop = chatMessages.scrollHeight;

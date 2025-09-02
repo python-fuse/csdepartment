@@ -1,3 +1,5 @@
+import { marked } from "https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js";
+
 export const GEMINI_API = "AIzaSyCtMtM8fohzNW50PF2Ak8XO7gFmRgCpSfo";
 export const GEMINI_BASE_URL =
   "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=";
@@ -38,6 +40,13 @@ let chats = [
   },
 ];
 
+marked.setOptions({
+  highlight: (code, lang) => {
+    const language = hljs.getLanguage(lang) ? lang : "plaintext";
+    return hljs.highlight(code, { language }).value;
+  },
+});
+
 export async function generateBotResponse(userMessage) {
   const message = userMessage.toLowerCase();
 
@@ -61,7 +70,7 @@ export async function generateBotResponse(userMessage) {
   const botMessage = await botRes.json();
 
   return (
-    botMessage.candidates?.[0]?.content?.parts?.[0].text ||
+    marked.parse(botMessage.candidates?.[0]?.content?.parts?.[0].text) ||
     "Unable to get response from AI!"
   );
 }

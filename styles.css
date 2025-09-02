@@ -193,6 +193,13 @@ body {
   transition: all var(--transition-normal);
 }
 
+.pyfuse-link {
+  color: #00d4ff;
+  border: dotted 1px;
+  margin-top: 1rem;
+  padding: 10px;
+}
+
 .nav-link:hover,
 .nav-link.active {
   color: var(--accent-blue);
@@ -387,7 +394,7 @@ body {
 .title-line {
   display: block;
   /* animation: slideInUp 1s ease-out forwards; */
-  font-size: 3rem;
+  /* font-size: 3rem; */
   opacity: 0;
 }
 
@@ -1372,6 +1379,7 @@ body {
 
 .chat-panel.active {
   transform: scale(1);
+  height: 500px;
 }
 
 .chat-header {
@@ -1404,6 +1412,7 @@ body {
   flex: 1;
   padding: var(--spacing-md);
   overflow-y: auto;
+  font-size: 1rem;
 }
 
 .message {
@@ -1654,7 +1663,7 @@ body {
 
   .hero-logos {
     gap: var(--spacing-md);
-    flex-direction: column;
+    /* flex-direction: column; */
   }
 
   .hero-university-logo,
