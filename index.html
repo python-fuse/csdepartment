@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Computer Science Department - Kebbi State University</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="./assets/nacos.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <div class="logo-container">
+            <img
+              src="./assets/afusta.png"
+              alt="AFUSTA Logo"
+              class="university-logo"
+            />
+            <img
+              src="./assets/nacos.png"
+              alt="CS Department Logo"
+              class="department-logo"
+            />
+          </div>
+          <div class="logo-text">
+            <span class="department-name">CS Department</span>
+            <span class="university-name">AFUSTA</span>
+          </div>
+        </div>
+        <ul class="nav-menu" id="nav-menu">
+          <li class="nav-item">
+            <a href="#hero" class="nav-link" data-section="hero">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link" data-section="about">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#programs" class="nav-link" data-section="programs"
+              >Programs</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#faculty" class="nav-link" data-section="faculty"
+              >Faculty</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#research" class="nav-link" data-section="research"
+              >Research</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#news" class="nav-link" data-section="news">News</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link" data-section="contact"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="hero-background">
+        <div class="floating-shapes">
+          <div class="shape shape-1"></div>
+          <div class="shape shape-2"></div>
+          <div class="shape shape-3"></div>
+          <div class="shape shape-4"></div>
+        </div>
+      </div>
+      <div class="hero-content">
+        <div class="hero-logos">
+          <img
+            src="./assets/afusta.png"
+            alt="AFUSTA Logo"
+            class="hero-university-logo"
+          />
+          <img
+            src="./assets/nacos.png"
+            alt="CS Department Logo"
+            class="hero-department-logo"
+          />
+        </div>
+        <h1 class="hero-title">
+          <span class="title-line">Department of</span>
+          <span class="title-line">Computer Science</span>
+        </h1>
+        <p class="hero-subtitle">
+          Abdullahi Fodio University of Science and Technology, Aliero
+        </p>
+        <p class="hero-description">
+          Innovating the future through cutting-edge technology and research
+        </p>
+        <div class="hero-buttons">
+          <a href="#programs" class="btn btn-primary">Explore Programs</a>
+          <a href="#about" class="btn btn-secondary">Learn More</a>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="scroll-arrow"></div>
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">About Us</h2>
+          <p class="section-subtitle">
+            Leading the way in computer science education and innovation
+          </p>
+        </div>
+        <div class="about-content">
+          <div class="about-text">
+            <div class="about-item">
+              <div class="about-icon">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+              <div class="about-info">
+                <h3>Excellence in Education</h3>
+                <p>
+                  Our department is committed to providing world-class computer
+                  science education that prepares students for the challenges of
+                  tomorrow's technology landscape.
+                </p>
+              </div>
+            </div>
+            <div class="about-item">
+              <div class="about-icon">
+                <i class="fas fa-rocket"></i>
+              </div>
+              <div class="about-info">
+                <h3>Innovation & Research</h3>
+                <p>
+                  We foster a culture of innovation through cutting-edge
+                  research in artificial intelligence, cybersecurity, software
+                  engineering, and data science.
+                </p>
+              </div>
+            </div>
+            <div class="about-item">
+              <div class="about-icon">
+                <i class="fas fa-users"></i>
+              </div>
+              <div class="about-info">
+                <h3>Community Impact</h3>
+                <p>
+                  Our graduates become leaders in technology, contributing to
+                  the digital transformation of Nigeria and beyond.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="about-stats">
+            <div class="stat-item">
+              <div class="stat-number">1000+</div>
+              <div class="stat-label">Students</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">15+</div>
+              <div class="stat-label">Staff</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">70+</div>
+              <div class="stat-label">Final Year Projects</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">95%</div>
+              <div class="stat-label">Employment Rate</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Programs & Courses Section -->
+    <section id="programs" class="programs section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Programs & Courses</h2>
+          <p class="section-subtitle">
+            Comprehensive curriculum designed for the digital age
+          </p>
+        </div>
+        <div class="programs-grid">
+          <div class="program-card">
+            <div class="card-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3>Software Engineering</h3>
+            <p>
+              Learn to design, develop, and maintain complex software systems
+              using modern methodologies and best practices.
+            </p>
+            <ul class="course-list">
+              <li>Object-Oriented Programming</li>
+              <li>Software Architecture</li>
+              <li>Agile Development</li>
+              <li>DevOps & CI/CD</li>
+            </ul>
+          </div>
+          <div class="program-card">
+            <div class="card-icon">
+              <i class="fas fa-brain"></i>
+            </div>
+            <h3>Artificial Intelligence</h3>
+            <p>
+              Explore machine learning, deep learning, and AI applications that
+              are shaping the future of technology.
+            </p>
+            <ul class="course-list">
+              <li>Machine Learning</li>
+              <li>Neural Networks</li>
+              <li>Computer Vision</li>
+              <li>Natural Language Processing</li>
+            </ul>
+          </div>
+          <div class="program-card">
+            <div class="card-icon">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <h3>Cybersecurity</h3>
+            <p>
+              Protect digital assets and infrastructure through comprehensive
+              security principles and practices.
+            </p>
+            <ul class="course-list">
+              <li>Network Security</li>
+              <li>Ethical Hacking</li>
+              <li>Cryptography</li>
+              <li>Risk Management</li>
+            </ul>
+          </div>
+          <div class="program-card">
+            <div class="card-icon">
+              <i class="fas fa-database"></i>
+            </div>
+            <h3>Data Science</h3>
+            <p>
+              Extract insights from big data using statistical analysis,
+              visualization, and machine learning techniques.
+            </p>
+            <ul class="course-list">
+              <li>Data Mining</li>
+              <li>Statistical Analysis</li>
+              <li>Data Visualization</li>
+              <li>Big Data Technologies</li>
+            </ul>
+          </div>
+          <div class="program-card">
+            <div class="card-icon">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+            <h3>Mobile Development</h3>
+            <p>
+              Create innovative mobile applications for iOS and Android
+              platforms using modern frameworks.
+            </p>
+            <ul class="course-list">
+              <li>iOS Development</li>
+              <li>Android Development</li>
+              <li>Cross-Platform Development</li>
+              <li>Mobile UI/UX</li>
+            </ul>
+          </div>
+          <div class="program-card">
+            <div class="card-icon">
+              <i class="fas fa-globe"></i>
+            </div>
+            <h3>Web Development</h3>
+            <p>
+              Build modern, responsive web applications using cutting-edge
+              technologies and frameworks.
+            </p>
+            <ul class="course-list">
+              <li>Frontend Development</li>
+              <li>Backend Systems</li>
+              <li>Database Design</li>
+              <li>Cloud Computing</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Faculty & Staff Section -->
+    <section id="faculty" class="faculty section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Faculty & Staff</h2>
+          <p class="section-subtitle">
+            Meet our dedicated team of educators and researchers
+          </p>
+        </div>
+        <div class="faculty-grid">
+          <div class="faculty-card">
+            <div class="faculty-image">
+              <img src="./assets/hod.jpg" alt="HOD" class="staff-img" />
+            </div>
+
+            <div class="faculty-info">
+              <h3>Dr. Hassan Suru</h3>
+              <p class="faculty-title">Head of Department</p>
+              <p class="faculty-specialization">Computer Science</p>
+              <div class="faculty-contact">
+                <a href="mailto:ahmad.ibrahim@ksu.edu.ng"
+                  ><i class="fas fa-envelope"></i
+                ></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-researchgate"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="faculty-card">
+            <div class="faculty-image">
+              <img
+                src="./assets/dept_staff_adv.jpg"
+                alt="HOD"
+                class="staff-img"
+              />
+            </div>
+            <div class="faculty-info">
+              <h3>Dr. Mohammed Usman</h3>
+              <p class="faculty-title">Department Staff Adviser</p>
+              <p class="faculty-specialization">Computer Science</p>
+              <div class="faculty-contact">
+                <a href="mailto:mohammed.usman@ksu.edu.ng"
+                  ><i class="fas fa-envelope"></i
+                ></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-researchgate"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="faculty-card">
+            <div class="faculty-image">
+              <img src="./assets/dir_ict.jpg" alt="HOD" class="staff-img" />
+            </div>
+
+            <div class="faculty-info">
+              <h3>Dr. Muhammed Garba</h3>
+              <p class="faculty-title">Director of ICT</p>
+              <p class="faculty-specialization">
+                Information and Communication Technology
+              </p>
+              <div class="faculty-contact">
+                <a href="mailto:fatima.aliyu@ksu.edu.ng"
+                  ><i class="fas fa-envelope"></i
+                ></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-researchgate"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="faculty-card">
+            <div class="faculty-image">
+              <img src="./assets/examiner.jpg" alt="HOD" class="staff-img" />
+            </div>
+
+            <div class="faculty-info">
+              <h3>Mal. Anas Gulumbe</h3>
+              <p class="faculty-title">Examination Officer</p>
+              <p class="faculty-specialization">Computer Science</p>
+              <div class="faculty-contact">
+                <a href="mailto:aisha.garba@ksu.edu.ng"
+                  ><i class="fas fa-envelope"></i
+                ></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-researchgate"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="faculty-card">
+            <div class="faculty-image">
+              <img src="./assets/400l_coord.jpg" alt="HOD" class="staff-img" />
+            </div>
+            <div class="faculty-info">
+              <h3>Mal. Shamsu Arzika</h3>
+              <p class="faculty-title">400 Level Coordinator</p>
+              <p class="faculty-specialization">Computer Science</p>
+              <div class="faculty-contact">
+                <a href="mailto:yusuf.bello@ksu.edu.ng"
+                  ><i class="fas fa-envelope"></i
+                ></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-researchgate"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="faculty-card">
+            <div class="faculty-image">
+              <img src="./assets/300_l_coord.jpg" alt="HOD" class="staff-img" />
+            </div>
+            <div class="faculty-info">
+              <h3>Mal. Mubarak Yeldu</h3>
+              <p class="faculty-title">300 Level Coordinator</p>
+              <p class="faculty-specialization">Computer Science</p>
+              <div class="faculty-contact">
+                <a href="mailto:ibrahim.sani@ksu.edu.ng"
+                  ><i class="fas fa-envelope"></i
+                ></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-researchgate"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Research & Publications Section -->
+    <section id="research" class="research section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Research & Publications</h2>
+          <p class="section-subtitle">
+            Advancing knowledge through innovative research
+          </p>
+        </div>
+        <div class="research-content">
+          <div class="research-areas">
+            <h3>Research Areas</h3>
+            <div class="research-item">
+              <div class="research-icon">
+                <i class="fas fa-robot"></i>
+              </div>
+              <div class="research-info">
+                <h4>Artificial Intelligence & Machine Learning</h4>
+                <p>
+                  Developing intelligent systems for healthcare, agriculture,
+                  and financial services in Nigeria.
+                </p>
+              </div>
+            </div>
+            <div class="research-item">
+              <div class="research-icon">
+                <i class="fas fa-shield-alt"></i>
+              </div>
+              <div class="research-info">
+                <h4>Cybersecurity Research</h4>
+                <p>
+                  Protecting critical infrastructure and developing security
+                  solutions for emerging threats.
+                </p>
+              </div>
+            </div>
+            <div class="research-item">
+              <div class="research-icon">
+                <i class="fas fa-chart-line"></i>
+              </div>
+              <div class="research-info">
+                <h4>Data Science & Analytics</h4>
+                <p>
+                  Extracting insights from big data to solve real-world problems
+                  in various domains.
+                </p>
+              </div>
+            </div>
+            <div class="research-item">
+              <div class="research-icon">
+                <i class="fas fa-microchip"></i>
+              </div>
+              <div class="research-info">
+                <h4>IoT & Embedded Systems</h4>
+                <p>
+                  Creating smart solutions for agriculture, healthcare, and
+                  urban development.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="publications">
+            <h3>Recent Publications</h3>
+            <div class="publication-item">
+              <div class="publication-year">2024</div>
+              <div class="publication-details">
+                <h4>
+                  "AI-Driven Agricultural Monitoring System for Smallholder
+                  Farmers"
+                </h4>
+                <p>International Journal of Agricultural Technology</p>
+                <div class="publication-authors">
+                  Prof. Ahmad Ibrahim, Dr. Aisha Garba
+                </div>
+              </div>
+            </div>
+            <div class="publication-item">
+              <div class="publication-year">2024</div>
+              <div class="publication-details">
+                <h4>
+                  "Cybersecurity Framework for Nigerian Financial Institutions"
+                </h4>
+                <p>Journal of Information Security and Applications</p>
+                <div class="publication-authors">
+                  Dr. Fatima Aliyu, Dr. Mohammed Usman
+                </div>
+              </div>
+            </div>
+            <div class="publication-item">
+              <div class="publication-year">2023</div>
+              <div class="publication-details">
+                <h4>
+                  "Machine Learning Approaches for Healthcare Data Analysis"
+                </h4>
+                <p>IEEE Transactions on Biomedical Engineering</p>
+                <div class="publication-authors">
+                  Dr. Aisha Garba, Prof. Ahmad Ibrahim
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- News & Events Section -->
+    <section id="news" class="news section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">News & Events</h2>
+          <p class="section-subtitle">
+            Stay updated with the latest happenings
+          </p>
+        </div>
+        <div class="news-slider">
+          <div class="slider-container">
+            <div class="news-slide active">
+              <div class="news-image">
+                <div class="image-placeholder">
+                  <i class="fas fa-newspaper"></i>
+                </div>
+              </div>
+              <div class="news-content">
+                <div class="news-date">September 4, 2025</div>
+                <h3>NACOS DAY 2.0</h3>
+                <p>
+                  The annual NACOS Day Event makes a great comeback as
+                  <strong>NACOS DAY 2.0</strong>! Get ready for an unforgettable
+                  experience filled with innovation, tech exhibitions, engaging
+                  workshops, fun competitions, networking opportunities, and
+                  lots of entertainment. It’s not just an event — it’s a
+                  celebration of creativity, technology, and community. Don’t
+                  miss out!
+                </p>
+                <!-- <a href="#" class="read-more"
+                  >Read More <i class="fas fa-arrow-right"></i
+                ></a> -->
+              </div>
+            </div>
+            <div class="news-slide">
+              <div class="news-image">
+                <div class="image-placeholder">
+                  <i class="fas fa-trophy"></i>
+                </div>
+              </div>
+              <div class="news-content">
+                <div class="news-date">September 3, 2025</div>
+                <h3>CS Prime Event Final Day</h3>
+                <p>
+                  The <strong>CS Prime Event</strong> is an annual program for
+                  Computer Science students, featuring exciting quizzes,
+                  inspiring speeches, and innovative software development. The
+                  Final Day is the grand highlight — where students showcase and
+                  present the software projects they have built, demonstrating
+                  their creativity, teamwork, and technical excellence.
+                </p>
+                <!-- <a href="#" class="read-more"
+                  >Read More <i class="fas fa-arrow-right"></i
+                ></a> -->
+              </div>
+            </div>
+            <div class="news-slide">
+              <div class="news-image">
+                <div class="image-placeholder">
+                  <i class="fas fa-newspaper"></i>
+                </div>
+              </div>
+              <div class="news-content">
+                <div class="news-date">September 3, 2025</div>
+                <h3>Second Semester Exams Begins</h3>
+                <p>
+                  The long-awaited second semester examinations officially
+                  commence. We wish all Computer Science students success as
+                  they put their knowledge and hard work to the test. Stay
+                  focused, prepare well, and give it your best!
+                </p>
+                <!-- <a href="#" class="read-more"
+                  >Read More <i class="fas fa-arrow-right"></i -->
+                <!-- ></a> -->
+              </div>
+            </div>
+          </div>
+          <div class="slider-controls">
+            <button class="slider-btn prev-btn" id="prevBtn">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <div class="slider-dots" id="sliderDots">
+              <span class="dot active" data-slide="0"></span>
+              <span class="dot" data-slide="1"></span>
+              <span class="dot" data-slide="2"></span>
+            </div>
+            <button class="slider-btn next-btn" id="nextBtn">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Contact Us</h2>
+          <p class="section-subtitle">Get in touch with our department</p>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Address</h4>
+                <p>
+                  Computer Science Department<br />Kebbi State University<br />Aliero,
+                  Kebbi State, Nigeria
+                </p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Phone</h4>
+                <p>
+                  +234 803 800 1523<br />
+                  +234 8147 074 027
+                </p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Email</h4>
+                <p>cs.department@ksu.edu.ng<br />info.cs@ksu.edu.ng</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-clock"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Office Hours</h4>
+                <p>
+                  Monday - Friday: 8:00 AM - 5:00 PM<br />Saturday: 9:00 AM -
+                  2:00 PM
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form-container">
+            <form class="contact-form" id="contactForm">
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Your Name"
+                  required
+                />
+                <label for="name">Name</label>
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Your Email"
+                  required
+                />
+                <label for="email">Email</label>
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  placeholder="Subject"
+                  required
+                />
+                <label for="subject">Subject</label>
+              </div>
+              <div class="form-group">
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Your Message"
+                  rows="5"
+                  required
+                ></textarea>
+                <label for="message">Message</label>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                <span>Send Message</span>
+                <i class="fas fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7796.234854752046!2d4.496855897849752!3d12.307878169136814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x11c99dca93e640f7%3A0x28ee47347c052f78!2sKebbi%20State%20University%20of%20Science%20and%20Technology%20Aliero!5e0!3m2!1sen!2sng!4v1756802983067!5m2!1sen!2sng"
+            width="100%"
+            height="400"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <div class="footer-logo">
+              <div class="footer-logo-container">
+                <img
+                  src="./assets/afusta.png"
+                  alt="AFUSTA Logo"
+                  class="footer-university-logo"
+                />
+                <img
+                  src="./assets/nacos.png"
+                  alt="CS Department Logo"
+                  class="footer-department-logo"
+                />
+              </div>
+              <div class="footer-logo-text">
+                <span class="footer-department-name">CS Department</span>
+                <span class="footer-university-name">AFUSTA</span>
+              </div>
+            </div>
+            <p>
+              Kebbi State University Computer Science Department - Innovating
+              the future through technology and education.
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#programs">Programs</a></li>
+              <li><a href="#faculty">Faculty</a></li>
+              <li><a href="#research">Research</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Programs</h4>
+            <ul>
+              <li><a href="#">Software Engineering</a></li>
+              <li><a href="#">Artificial Intelligence</a></li>
+              <li><a href="#">Cybersecurity</a></li>
+              <li><a href="#">Data Science</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Contact Info</h4>
+            <div class="contact-info-footer">
+              <p>
+                <i class="fas fa-map-marker-alt"></i> Aliero, Kebbi State,
+                Nigeria
+              </p>
+              <p><i class="fas fa-phone"></i> +234 803 123 4567</p>
+              <p><i class="fas fa-envelope"></i> cs.department@ksu.edu.ng</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            &copy; 2025 Computer Science Department, Kebbi State University. All
+            rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Floating Chat Button -->
+    <div class="floating-chat" id="floatingChat">
+      <div class="chat-button" id="chatButton">
+        <i class="fas fa-comments"></i>
+      </div>
+      <div class="chat-panel" id="chatPanel">
+        <div class="chat-header">
+          <h4>CS Department Assistant</h4>
+          <button class="chat-close" id="chatClose">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <div class="chat-messages" id="chatMessages">
+          <div class="message bot-message">
+            <p>
+              Hello! I'm the CS Department Assistant. How can I help you today?
+            </p>
+          </div>
+        </div>
+        <div class="chat-input-container">
+          <input
+            type="text"
+            class="chat-input"
+            id="chatInput"
+            placeholder="Type your message..."
+          />
+          <button class="chat-send" id="chatSend">
+            <i class="fas fa-paper-plane"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js" type="module"></script>
+    <script src="chatbot.js" type="module"></script>
+  </body>
+</html>
