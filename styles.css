@@ -1420,6 +1420,21 @@ body {
   padding: var(--spacing-sm) var(--spacing-md);
   border-radius: var(--border-radius-md);
   max-width: 80%;
+  overflow-x: scroll;
+}
+
+/* Create a slim scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(139, 92, 246, 0.3);
+  border-radius: var(--border-radius-lg);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(139, 92, 246, 0.5);
 }
 
 .bot-message {
