@@ -22,7 +22,7 @@ let chats = [
     role: "user",
     parts: [
       {
-        text: `SYSTEM:The HOD of computer science at Abdullahi Fodio University of Science and Technology,Aliero (AFUSTA) is Dr.Hassan Suru!
+        text: `SYSTEM:The HOD of computer science at Abdullahi Fodio University of Science and Technology,Aliero (AFUSTA) is Dr.Hassan Umar Suru!
               
               Examination officer/examiner is Mal. Anas Gulumbe.
               Staff advisor is Dr. Bashir Aliyu Yauri

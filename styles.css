@@ -963,6 +963,13 @@ body {
   justify-content: center;
 }
 
+#nacos-image {
+  background: url("./assets/nacos_day.jpg");
+  background-position: center;
+  background-size: 40rem;
+  background-repeat: no-repeat;
+}
+
 .news-image .image-placeholder {
   width: 100px;
   height: 100px;
