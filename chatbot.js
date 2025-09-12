@@ -30,10 +30,9 @@ let chats = [
               300 Level coordinator is Mal. Mubarak Jibril Yeldu
               200 Level coordinator is Mal. Anas Muhammad Shehu
               100 Level coordinator is Mal. Mustapha Salisu Mungadi
-
-              
-
-              
+              ICT Director is Dr. Muhammad Garba
+              SIWES Coordinator is Malm. Salamatu Musa
+              Project Coordinator is Mal. Salihu Suru
               `,
       },
     ],
